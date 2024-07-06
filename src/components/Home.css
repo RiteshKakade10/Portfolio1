@@ -1,0 +1,40 @@
+.home1{
+    background-size: cover; /* Cover the entire container */
+    background-position: right; /* Center the background image */
+    height: 80vh;
+    /* Adjust height as needed */
+    color: #fff; /* Text color for better contrast */
+    padding: 7%; /* Add padding to your content */
+      display: block;
+      margin-left: auto;
+      margin-right: 0;
+    
+}
+.img1{
+  background-position: right;
+}
+
+.home11{
+  text-align: right;
+  font-weight: bold;
+}
+
+/*
+Box
+*/
+.bo1{
+  margin: 0px;
+  border: 2px solid black;
+  padding: 5px;  
+  height: auto;
+  width: 100%;
+}
+
+.expert{
+  margin: 0px;
+  padding: 5px;
+  border: solid 7px;
+}
+
+  
+

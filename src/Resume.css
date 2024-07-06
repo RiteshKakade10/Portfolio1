@@ -1,0 +1,137 @@
+.resume {
+    flex: 1;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume section {
+    margin-bottom: 2rem;
+  }
+  
+  .resume h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: black;
+  }
+  .resume h1 {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    color:black;
+    font-weight: bold;
+  }
+  .demo{
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .demo22{
+    padding-bottom: 5px;
+    padding-top: 2px;
+    text-align: left;
+  }
+ 
+  .Name1{
+    text-align-last: right;
+  }
+
+  .resume h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .resume p {
+    margin: 0.5rem 0;
+  }
+  
+  .resume ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .resume ul li {
+    background: #e0e0e0;
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    border-radius: 0.2rem;
+  }
+  
+  .components1{
+    display: flex;
+    gap: 30px;
+    text-align-last: center;
+    text-align: center;
+  }
+
+  .link1:hover{
+    color:blue;
+  }
+  .hacker1:hover{
+    color:darkgreen;
+  }
+  .leet1:hover{
+    color:yellow;
+  }
+  .geeks1:hover{
+    color:green;
+  }
+  .github1:hover{
+    color:black;
+  }
+
+  .h2:hover{
+    color: orange;
+  }
+  .skills:hover{
+    color: orange;
+  }
+
+  .name23:hover{
+    color: orange;
+  }
+ 
+  .tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    width: 160px;
+    color: black;
+    text-align: center;
+    border-radius: 2px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 60%; /* Position the tooltip above the logo */
+    left: 80%;
+    margin-left: -80px; /* Use half of the tooltip width to center it */
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* Bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+   
+  }
+  
+  .tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
